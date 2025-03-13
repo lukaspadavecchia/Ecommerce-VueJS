@@ -14,6 +14,13 @@
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
+    "axios": "^1.8.3",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
     "pinia": "^3.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
@@ -29,11 +36,25 @@
     "eslint": "^9.21.0",
     "eslint-plugin-vue": "~10.0.0",
     "jiti": "^2.4.2",
+    "nodemon": "^3.1.9",
     "npm-run-all2": "^7.0.2",
     "prettier": "3.5.3",
     "typescript": "~5.8.0",
     "vite": "^6.2.1",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vue-tsc": "^2.2.8"
-  }
+  },
+  "description": "Vue Shop es una aplicación de comercio electrónico desarrollada con Vue 3, TypeScript y Vuetify. Ofrece una experiencia de compra completa con catálogo de productos, carrito de compras y proceso de pago.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaspadavecchia/Ecommerce-VueJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaspadavecchia/Ecommerce-VueJS/issues"
+  },
+  "homepage": "https://github.com/lukaspadavecchia/Ecommerce-VueJS#readme"
 }
